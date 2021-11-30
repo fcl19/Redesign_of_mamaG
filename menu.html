@@ -2,59 +2,69 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!--Mobile Compatibility-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   		<!--page header-->
     	<title>Mama G's Menu</title>
     	
     	<!--link to css sheet-->
     	<link rel="stylesheet" href="css/mamaG.css" />
+    	<script src='goToContact.js'></script>
     </head>
     
     <body>
-    	<div class="navBar">
-    		<ul>
-    			<li style="float:center"><a href="#home">
-  					<img src="images/mamaGLogo.png" alt="Mama G's German Bakery and Coffee House" width="125" height="125"></a></li>
-  				<li><a class="active" href="#aboutUs">About Us</a></li>
-  				<li><a href="#location">Locations + Hours</a></li>
-  				<li style="float:right"><a href="#contactUs">Contact Us</a></li>
-  				<li style="float:right"><a href="#reviews">Reviews</a></li>
-  				<li style="float:right"><a href="#menu">Menu</a></li>
- 
-			</ul>
+    	<div class="topnav">
+    		
+    		<a href="index.html">
+  				<img src="images/mamaGLogo.png" alt="Mama G's German Bakery and Coffee House" width="125" height="125"></a></li>
+  			<a href="index.html">About Us </a>
+  			<a href="index.html">Locations + Hours </a>
+  			<a class="active" href="#menu">Menu </a>
+  			<a href="reviews.html">Reviews </a>
+  			<a href="contact.html">Contact Us</a>
+			
 		</div>
 
-		<!--Navigation Bar Divider Line-->
-		<hr>
-
+		<br>
+		<br>
+		<br>
+		<br>
 		<!--Beginning of Menu Card Layout-->
-		<h1>Menu</h1>
+		<div tabindex="0">
+				<!--Making certain elements tabbable using tabindex, credit: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex-->
+			<h1>Menu</h1>
+			<p>*items marked with asterisk can be made Vegetarian/Vegan</p>
+		</div>
 
 		<!--Coffee Section-->
-		<h2>Coffee</h2>
+		<div tabindex="0">
+			<h2>Coffee</h2>
+		</div>
 
 		<div class="row">
-			<div class="card">
+			<div tabindex="0" class="card">
 				<!--Menu Images taken from https://www.mamagscoffee.com/-->
-		  		<img src="images/coldBrew.jpg" alt="Cold Brew Coffee" style="width:100%" width="100" height="180">
+		  		<img src="images/brewedCof.jpg" alt="Brewed To Go Coffee" style="width:100%" width="100" height="180">
 		  		<div class="container">
-		    		<h4><b>Brewed Coffee</b></h4> 
-		    		<p>Vegan/Vegetarian (hot coffee is self-serve) Choose from any of our featured daily roasts with our self-serve hot coffee</p> 
+		    		<h3><b>*Brewed Coffee</b></h3> 
+		    		<p>(hot coffee is self-serve) Choose from any of our featured daily roasts with our self-serve hot coffee</p> 
 		 		</div>
 			</div>
 			
-			<div class="card">
+			<div tabindex="0" class="card">
 				<!--Menu Images taken from https://www.mamagscoffee.com/-->
-			  	<img src="images/coldBrew.jpg" alt="Cold Brew Coffee" style="width:100%" width="100" height="180">
+			  	<img src="images/capp.jpg" alt="Cappuccino" style="width:100%" width="100" height="180">
 			  	<div class="container">
-			    	<h4><b>Cappuccino</b></h4> 
+			    	<h3><b>*Cappuccino</b></h3> 
 			    	<p>$3.00 layered espresso and foam</p> 
 			 	</div>
 			</div>
-			<div class="card">
+			<div tabindex="0" class="card">
 				<!--Menu Images taken from https://www.mamagscoffee.com/-->
-			  	<img src="images/coldBrew.jpg" alt="Cold Brew Coffee" style="width:100%" width="100" height="180">
+			  	<img src="images/coldBrew.jpg" alt="latte" style="width:100%" width="100" height="180">
 			  	<div class="container">
-			    	<h4><b>Latte</b></h4> 
+			    	<h3><b>*Latte</b></h3> 
 			    	<p>$3.00, espresso and steamed milk with a light layer of foam</p> 
 			 	</div>
 			</div>
@@ -64,29 +74,29 @@
 		<h2>Smoothies</h2>
 
 		<div class="row">
-			<div class="card">
+			<div tabindex="0" class="card">
 				<!--Menu Images taken from https://www.mamagscoffee.com/-->
-		  		<img src="images/coldBrew.jpg" alt="Cold Brew Coffee" style="width:100%" width="100" height="180">
+		  		<img src="images/strawSmoo.jpg" alt="Strawberry Smoothies" style="width:100%" width="100" height="180">
 		  		<div class="container">
-		    		<h4><b>Cold Brew</b></h4> 
-		    		<p>special dark roast</p> 
+		    		<h3><b>*Strawberry Banana</b></h3> 
+		    		<p>Strawberry and Banana</p> 
 		 		</div>
 			</div>
 			
-			<div class="card">
+			<div tabindex="0" class="card">
 				<!--Menu Images taken from https://www.mamagscoffee.com/-->
-			  	<img src="images/coldBrew.jpg" alt="Cold Brew Coffee" style="width:100%" width="100" height="180">
+			  	<img src="images/berrySmo.jpg" alt="Very Berry Smoothie" style="width:100%" width="100" height="180">
 			  	<div class="container">
-			    	<h4><b>Cold Brew</b></h4> 
-			    	<p>special dark roast</p> 
+			    	<h3><b>*Very Berry Boost</b></h3> 
+			    	<p>An energizing blend of berries to fuel your morning</p> 
 			 	</div>
 			</div>
-			<div class="card">
+			<div tabindex="0" class="card">
 				<!--Menu Images taken from https://www.mamagscoffee.com/-->
-			  	<img src="images/coldBrew.jpg" alt="Cold Brew Coffee" style="width:100%" width="100" height="180">
+			  	<img src="images/pineappleSmo.jpg" alt="Wheatgrass Pineapple Smoothie" style="width:100%" width="100" height="180">
 			  	<div class="container">
-			    	<h4><b>Cold Brew</b></h4> 
-			    	<p>special dark roast</p> 
+			    	<h3><b>*Wheatgrass Pineapple</b></h3> 
+			    	<p>A tangy and fruity journey enriched with pineapple</p> 
 			 	</div>
 			</div>
 		</div>	
@@ -95,32 +105,112 @@
 		<h2>Artisan Breads</h2>
 
 		<div class="row">
-			<div class="card">
-				<!--Menu Images taken from https://www.mamagscoffee.com/-->
-		  		<img src="images/coldBrew.jpg" alt="Cold Brew Coffee" style="width:100%" width="100" height="180">
+			<div tabindex="0" class="card">
+				<!--Menu Images taken from https://www.mamagscoffee.com/ and shutterstock -->
+		  		<img src="images/multiGrain.jpg" alt="Multigrain Bread" style="width:100%" width="100" height="180">
 		  		<div class="container">
-		    		<h4><b>Cold Brew</b></h4> 
-		    		<p>special dark roast</p> 
+		    		<h3><b>*Multigrain</b></h3> 
+		    		
 		 		</div>
 			</div>
 			
-			<div class="card">
+			<div tabindex="0" class="card">
 				<!--Menu Images taken from https://www.mamagscoffee.com/-->
-			  	<img src="images/coldBrew.jpg" alt="Cold Brew Coffee" style="width:100%" width="100" height="180">
+			  	<img src="images/cranberry.jpg" alt="Cranberry Walnut Bread" style="width:100%" width="100" height="180">
 			  	<div class="container">
-			    	<h4><b>Cold Brew</b></h4> 
-			    	<p>special dark roast</p> 
+			    	<h3><b>*Cranberry Walnut</b></h3> 
+			    	
 			 	</div>
 			</div>
-			<div class="card">
+			<div tabindex="0" class="card">
 				<!--Menu Images taken from https://www.mamagscoffee.com/-->
-			  	<img src="images/coldBrew.jpg" alt="Cold Brew Coffee" style="width:100%" width="100" height="180">
+			  	<img src="images/rye.jpg" alt="Farmer's Rye " style="width:100%" width="100" height="180">
 			  	<div class="container">
-			    	<h4><b>Cold Brew</b></h4> 
-			    	<p>special dark roast</p> 
+			    	<h3><b>*Farmer's Rye</b></h3> 
+			    	 
+			 	</div>
+			</div>
+		</div>
+	<!--Savory Section-->
+		<h2>Savory</h2>
+
+		<div class="row">
+			<div tabindex="0" class="card">
+				<!--Menu Images taken from https://www.mamagscoffee.com/ and shutterstock -->
+		  		<img src="images/spinachRicc.jpg" alt="Spinach Ricotta Croissant" style="width:100%" width="100" height="180">
+		  		<div class="container">
+		    		<h3><b>*Spinach and Ricotta Croissant</b></h3> 
+		    		
+		 		</div>
+			</div>
+			
+			<div tabindex="0" class="card">
+				<!--Menu Images taken from https://www.mamagscoffee.com/-->
+			  	<img src="images/comingSoon.png" alt="Image Coming Soon" style="width:100%" width="100" height="180">
+			  	<div class="container">
+			    	<h3><b>Bacon Scramble Danish</b></h3> 
+			    	
+			 	</div>
+			</div>
+			<div tabindex="0" class="card">
+				<!--Menu Images taken from https://www.mamagscoffee.com/-->
+			  	<img src="images/comingSoon.png" alt="Image Coming Soon " style="width:100%" width="100" height="180">
+			  	<div class="container">
+			    	<h3><b>Ham and Swiss Croissant</b></h3> 
+			    	 
 			 	</div>
 			</div>
 		</div>
 		
+		<!--Sweets Section-->
+		<h2>Sweets</h2>
+
+		<div class="row">
+			<div tabindex="0" class="card">
+				<!--Menu Images taken from https://www.mamagscoffee.com/ and shutterstock -->
+		  		<img src="images/apfelStrudel.jpg" alt="apple Strudel" style="width:100%" width="100" height="180">
+		  		<div class="container">
+		    		<h3><b>*Apple Strudel</b></h3> 
+		    		
+		 		</div>
+			</div>
+			
+			<div tabindex="0" class="card">
+				<!--Menu Images taken from https://www.mamagscoffee.com/-->
+			  	<img src="images/cheese.jpg" alt="Cheese Strudel" style="width:100%" width="100" height="180">
+			  	<div class="container">
+			    	<h3><b>*Cheese Strudel</b></h3> 
+			    	
+			 	</div>
+			</div>
+			<div tabindex="0" class="card">
+				<!--Menu Images taken from https://www.mamagscoffee.com/-->
+			  	<img src="images/nuss.jpg" alt="Nussecke " style="width:100%" width="100" height="180">
+			  	<div class="container">
+			    	<h3><b>*Nussecke</b></h3> 
+			    	 
+			 	</div>
+			</div>
+		</div>
+		<!--Fix Spacing-->
+			<br>
+			<br>
+			<br>
+			<br>
+
     </body>
+
+        <div class = footer>
+   	
+   		<!--Instagram and Facebook Linked:-->
+   		<p>
+   			<a href="https://www.instagram.com/mamagsstpete/">
+   				<img src="images/insta1.png"  width=50 height=50 alt="Instagram">
+   			</a>
+   			<a href="https://www.facebook.com/MamaGsStPete/">
+   				<img src="images/facebook1.png" width=50 height=50 alt="Facebook">
+   			</a>
+   		</p>
+
+	  </div>
 </html>

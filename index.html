@@ -2,28 +2,170 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!--Mobile Compatibility-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   		<!--page header-->
     	<title>Mama G's Coffee</title>
     	
     	<!--link to css sheet-->
     	<link rel="stylesheet" href="css/mamaG.css" />
+    	<script src='goToContact.js'></script>
     </head>
     
     <body>
-    	<div class="navBar">
-    		<ul>
-    			<li style="float:center"><a href="#home">
-  					<img src="images/mamaGLogo.png" alt="Mama G's German Bakery and Coffee House" width="125" height="125"></a></li>
-  				<li><a class="active" href="#aboutUs">About Us</a></li>
-  				<li><a href="#location">Locations + Hours</a></li>
-  				<li style="float:right"><a href="#contactUs">Contact Us</a></li>
-  				<li style="float:right"><a href="#reviews">Reviews</a></li>
-  				<li style="float:right"><a href="#menu">Menu</a></li>
- 
-			</ul>
+    	<div class="topnav">
+    		<a href="index.html">
+  				<img src="images/mamaGLogo.png" alt="Mama G's German Bakery and Coffee House" width="125" height="125"></a>
+  			<a class="active" href="#aboutUs">About Us </a>
+  			<a href="#location">Locations + Hours </a>
+  			<a href="menu.html">Menu </a>
+  			<a href="reviews.html">Reviews </a>
+  			<a href="contact.html">Contact Us</a>
+  				
 		</div>
 
-		<!--Navigation Bar Divider Line-->
-		<hr>
+		<!--Space Formatting line breaks-->
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<!--Disclaimer Message-->
+		<div tabindex="0">
+			<p id="disclaimer">NOT the official Mama G's Website, This is an NCF Class Project, Continue onto "https://www.mamagscoffee.com/" for the official Mama G's Website</p>
+		</div>	
+
+
+
+			<!--Welcome Message-->
+			<div tabindex="0">
+				<h1 id="welcomeMessage">Good Day!</h1>
+			</div>
+		<!--Center all elements within-->
+		<div class="center">
+
+			<!--Who are we-->
+			<div tabindex="0">
+				<h2 id="aboutUs">Who Are We?</h2>
+			</div>
+
+			<!--Display in one block-->
+			<div class="together">
+				<!--Pastry Photo with Link To Photos Page-->
+				<div tabindex="0">
+					<p><a href="#Photos"><img src="images/apfelStrudel.jpg" alt="Apple Strudel, select to continue to Photos" width="205" height="170" align="left"></a>
+					Mama G's is a family owned buisness focused on achieving quality in freshly baked goods and coffee.  We bake breads fresh daily and have a variety of coffees , pastries, and baked goods available.</p>
+				</div>
+			</div>
+
+			<!--Where are we?-->
+			<div tabindex="0">
+				<h2 id="location">Where Are We?</h2>
+			</div>
+
+			<div class="grid-container"> <!--Put into Columns-->
+				<div>
+					<!--Information for Sarasota Location-->
+					<div tabindex="0">
+						<h3>Sarasota</h3>
+					</div>
+
+					<div tabindex="0">
+						<p><b>Address:</b> 8431 N Taniami Trail, Sarasota, FL 34243</p>
+					</div>
+
+					<div tabindex="0">
+						<br>
+						<p><b>Hours: </b>Monday - Saturday: 6 AM - 4 PM</p>
+						<br>
+						<p>Sunday: Closed</p>
+					</div>
+
+					<!--Contact Page Button-->
+					<div tabindex="0">
+						<button onclick="goToContactPg()">Contact Us</button>
+					</div>
+				</div>
+
+				<div>
+
+					<!--Information for St Pete location-->
+					<div tabindex="0">
+						<h3>St Petersburg:</h3>
+					</div>
+
+					<div tabindex="0">
+						<p><b>Address:</b> 6114 54th Ave, North Kenneth City, FL, 33709</p>
+					</div>
+
+					<div tabindex="0">
+						<br>
+						<p><b>Hours: </b>Monday - Saturday: 7 AM - 3 PM</p>
+						<br>
+						<p>Sunday: Closed</p>
+					</div>
+
+					<!--Contact Page Button-->
+					<div tabindex="0">
+						<button onclick="goToContactPg()">Contact Us</button>
+					</div>	
+				</div>		
+			</div>
+			<!--See Our Specials!-->
+			<div tabindex="0">
+				<h2>Specials</h2>
+			</div>
+
+			<div class="grid-container"> <!--Make into columns-->
+
+				<div>
+					<div tabindex="0">
+						<h3>Monday</h3>
+						<p><img src="images/pizza.jpg" alt="Pizza being slicked" width=100 length=100 align="left">Artisan Pizzas</p>
+					</div>
+				</div>
+				<div>
+					<div tabindex="0">
+						<h3>Tuesday</h3>
+						<p>Vegetarian Lunches</p>
+					</div>
+				</div>
+
+				<div>
+					<div tabindex="0">
+						<h3>Wednesday</h3>
+						<p>Belgian Waffles</p>
+					</div>
+				</div>
+				<div>
+					<div tabindex="0">
+						<h3>Thursday - Saturday</h3>
+						<p>Pretzels and German Lunches</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!--Fix Spacing-->
+			<br>
+			<br>
+			<br>
+			<br>
+
     </body>
+
+    <div class = footer>
+   	
+   		<!--Instagram and Facebook Linked:-->
+   		<p>
+   			<a href="https://www.instagram.com/mamagsstpete/">
+   				<img src="images/insta1.png"  width=50 height=50 alt="Instagram">
+   			</a>
+   			<a href="https://www.facebook.com/MamaGsStPete/">
+   				<img src="images/facebook1.png" width=50 height=50 alt="Facebook">
+   			</a>
+   		</p>
+
+	  </div>
 </html>
