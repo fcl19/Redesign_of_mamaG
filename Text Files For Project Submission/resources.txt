@@ -1,0 +1,11 @@
+-Making certain elements tabbable using tabindex, credit: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex
+-Menu Images taken from https://www.mamagscoffee.com/ and https://www.shutterstock.com/home
+-https://www.javascripttutorial.net/javascript-dom/javascript-checkbox/
+-Responsive Image Grid made using (https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+-Hover Effect Made Using (https://www.w3schools.com/howto/howto_css_image_overlay_title.asp)
+-contact popup, help from https://www.w3schools.com/js/js_popup.asp
+-https://careerkarma.com/blog/javascript-go-to-url/
+-https://www.w3schools.com/howto/howto_js_topnav.asp*/
+-CSS Card Layout Formatting from https://www.w3schools.com/howto/howto_css_cards.asp*/
+-Used for formatting card layout https://www.w3schools.com/howto/howto_css_images_side_by_side.asp*/
+
