@@ -10,7 +10,7 @@
     	
     	<!--link to css sheet-->
     	<link rel="stylesheet" href="css/mamaG.css" />
-    	<script src='goToContact.js'></script>
+    	<script src='checkEmail.js'></script>
     </head>
     
     <body>
@@ -21,6 +21,7 @@
   			<a href="index.html">Locations + Hours </a>
   			<a href="menu.html">Menu </a>
   			<a href="reviews.html">Reviews </a>
+  			<a href="photos.html">Photos</a>
   			<a class="active" href="contact.html">Contact Us</a>
   				
 		</div>
@@ -36,25 +37,16 @@
 			<h1>Contact Us</h1>
 		</div>
 
-		<div tabindex="0">
-			<!--Photo of Mama G from mamagscoffee.com-->
-			<p><img src="images/mamaGphoto.jpg" alt="Mama G and Jacqueline Blowers" align="left" width=300 height=250>
-			We strive to make connections with the community we serve.  Contact us here about any suggestions or concerns you may have.  </p>
+		<div class="background1">
+			<div tabindex="0">
+				<!--Photo of Mama G from mamagscoffee.com-->
+				<div class="backgroundText">
+					<p>
+					We strive to make connections with the community we serve. We are always aiming to improve our service to you, in order to bring the best food and coffee to you. Contact us here about any suggestions or concerns you may have.  </p>
+				</div>
+			</div>
 		</div>
-				<!--Spacing Fix-->
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+
 
 		<div tabindex="0">
 			<hr>
@@ -89,11 +81,13 @@
 			</div>
 			<div tabindex="0">
 				<form action="http://www.example.com/login.php">
-					<p>Your Phone Number:  
-						<input type="text" name="phoneNum" size="15" 
-						maxlength="30" />
+					<p>Your Email:  
+						<div id="email1">
+						<input type="text" name="email" size="15"  
+						maxlength="30" /></div>
 					</p>
 				</form>
+				<div id="emailCheck"></div>
 			</div>
 
 			<div tabindex="0">
@@ -107,7 +101,7 @@
 		<br>
 		<br>
 
-	</body>
+	
 
 	    <div class = footer>
    	
@@ -122,4 +116,5 @@
    		</p>
 
 	  </div>
+	</body>
 	 </html>

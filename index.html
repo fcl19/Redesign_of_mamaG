@@ -11,6 +11,7 @@
     	<!--link to css sheet-->
     	<link rel="stylesheet" href="css/mamaG.css" />
     	<script src='goToContact.js'></script>
+    	<script src='welcomeMsg.js'></script>
     </head>
     
     <body>
@@ -21,6 +22,7 @@
   			<a href="#location">Locations + Hours </a>
   			<a href="menu.html">Menu </a>
   			<a href="reviews.html">Reviews </a>
+  			<a href="photos.html">Photos</a>
   			<a href="contact.html">Contact Us</a>
   				
 		</div>
@@ -42,6 +44,7 @@
 			<div tabindex="0">
 				<h1 id="welcomeMessage">Good Day!</h1>
 			</div>
+
 		<!--Center all elements within-->
 		<div class="center">
 
@@ -54,7 +57,8 @@
 			<div class="together">
 				<!--Pastry Photo with Link To Photos Page-->
 				<div tabindex="0">
-					<p><a href="#Photos"><img src="images/apfelStrudel.jpg" alt="Apple Strudel, select to continue to Photos" width="205" height="170" align="left"></a>
+					<p><a href="photos.html"><img src="images/apfelStrudel.jpg" alt="Apple Strudel, select to continue to Photos" width="205" height="170" align="left">
+					</a>
 					Mama G's is a family owned buisness focused on achieving quality in freshly baked goods and coffee.  We bake breads fresh daily and have a variety of coffees , pastries, and baked goods available.</p>
 				</div>
 			</div>
@@ -117,34 +121,38 @@
 				<h2>Specials</h2>
 			</div>
 
-			<div class="grid-container"> <!--Make into columns-->
+			<!--Add in background image-->
+			
+				<div class="grid-container"> <!--Make into columns-->
+					
+					<div>
+						<div tabindex="0">
+							<h3>Monday</h3>
+							<p>Artisan Pizzas</p>
+						</div>
+					</div>
 
-				<div>
-					<div tabindex="0">
-						<h3>Monday</h3>
-						<p><img src="images/pizza.jpg" alt="Pizza being slicked" width=100 length=100 align="left">Artisan Pizzas</p>
+					<div>
+						<div tabindex="0">
+							<h3>Tuesday</h3>
+							<p>Vegetarian Lunches</p>
+						</div>
 					</div>
-				</div>
-				<div>
-					<div tabindex="0">
-						<h3>Tuesday</h3>
-						<p>Vegetarian Lunches</p>
-					</div>
-				</div>
 
-				<div>
-					<div tabindex="0">
-						<h3>Wednesday</h3>
-						<p>Belgian Waffles</p>
+					<div>
+						<div tabindex="0">
+							<h3>Wednesday</h3>
+							<p>Belgian Waffles</p>
+						</div>
+					</div>
+					<div>
+						<div tabindex="0">
+							<h3>Thursday - Saturday</h3>
+							<p>Pretzels and German Lunches</p>
+						</div>
 					</div>
 				</div>
-				<div>
-					<div tabindex="0">
-						<h3>Thursday - Saturday</h3>
-						<p>Pretzels and German Lunches</p>
-					</div>
-				</div>
-			</div>
+			
 		</div>
 		</div>
 		<!--Fix Spacing-->
@@ -153,7 +161,7 @@
 			<br>
 			<br>
 
-    </body>
+    
 
     <div class = footer>
    	
@@ -168,4 +176,5 @@
    		</p>
 
 	  </div>
+	</body>
 </html>

@@ -11,17 +11,19 @@
     	<!--link to css sheet-->
     	<link rel="stylesheet" href="css/mamaG.css" />
     	<script src='goToContact.js'></script>
+    	<script src='reviewSort.js'></script>
     </head>
     
     <body>
     	<div class="topnav">
     		
     		<a href="index.html">
-  				<img src="images/mamaGLogo.png" alt="Mama G's German Bakery and Coffee House" width="125" height="125"></a></li>
+  				<img src="images/mamaGLogo.png" alt="Mama G's German Bakery and Coffee House" width="125" height="125"></a>
   			<a href="index.html">About Us </a>
   			<a href="index.html">Locations + Hours </a>
   			<a href="menu.html">Menu </a>
   			<a class="active" href="reviews.html">Reviews </a>
+  			<a href="photos.html">Photos</a>
   			<a href="contact.html">Contact Us</a>
 			
 		</div>
@@ -43,16 +45,21 @@
 						<p>View reviews for: 
 						 <br />
 						 <input type="checkbox" name="location" 
-						 value="sarasota" /> Sarasota
+						 value="sarasota" id="sarasota"/> Sarasota
 						 <input type="checkbox" name="location" 
-						 value="stpete" /> St Petersburg
+						 value="stpete" id="stPete"/> St Petersburg
 
 						</p>
 						</form>
+				
+
+				<div tabindex="0">
+					<button id="sortButton">Sort</button>
+				</div>
 
 					<div tabindex="0">
 						<hr>
-						<p><img src="images/review1.jpg" alt="picture of coffee stands" width="100" height="150" align="left"> <b>Sarasota 11/20</b><br>Mama G's is a pretty, family bakery off of 41.  They have excellent pricing and great service.  I always make sure to stop by. - User105
+						<p id="review1"><img src="images/review1.jpg" alt="picture of coffee stands" width="100" height="150" align="left"> <b>Sarasota 11/20</b><br>Mama G's is a pretty, family bakery off of 41.  They have excellent pricing and great service.  I always make sure to stop by. - User105
 						</p>
 						<br>
 						<br>
@@ -64,7 +71,20 @@
 					<br>
 					<br>
 					<div tabindex="0">
-						<p><img src="images/review2.jpg" alt="picture of counter" width="100" height="150" align="left"> <b>Sarasota 11/10</b><br>Amazing croissants and coffee.  Friendly service with a pleasing atmosphere - User2020
+						<p id="review2"><img src="images/review2.jpg" alt="picture of counter" width="100" height="150" align="left"> <b>Sarasota 11/10</b><br>Amazing croissants and coffee.  Friendly service with a pleasing atmosphere - User2020
+						</p>
+					</div>
+					<br>
+					<br>
+					<br>
+					<br>
+					<hr>
+					<br>
+					<br>
+					<br>
+					<!--Need to update still-->
+					<div tabindex="0">
+						<p id="review3"><img src="images/review2.jpg" alt="picture of counter" width="100" height="150" align="left"> <b>St Pete 11/15</b><br>Amazing danishes and bread.  Good service with a friendly attitude - User14
 						</p>
 					</div>
 				</div>
@@ -198,7 +218,7 @@
 			<br>
 			<br>
 			<br>
-	</body>
+	
 	    <div class = footer>
    	
    		<!--Instagram and Facebook Linked:-->
@@ -212,4 +232,8 @@
    		</p>
 
 	  </div>
+	</div>
+</div>
+
+	  </body>
 	  </html>
